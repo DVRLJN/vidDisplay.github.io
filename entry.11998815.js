@@ -1,0 +1,1 @@
+let e=document.querySelectorAll("#videoId");for(let o=0;o<e.length;o++)console.log(e[o]),e[o].onmouseover=function(){this.play()};for(let o=0;o<e.length;o++)console.log(e[o]),e[o].onmouseout=function(){this.pause()};
